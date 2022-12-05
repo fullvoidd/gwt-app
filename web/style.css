@@ -1,0 +1,27 @@
+/** Add css rules here for your application. */
+
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: small;
+    margin: 8px;
+}
+
+.topPanel {
+    border: 3px solid #BBBBBB;
+    padding: 3px;
+    background-color: lightgrey;
+}
+
+.treeBox {
+    border: 1px solid #000000;
+    padding: 3px;
+    background-color: white;
+}
+
+.listBox {
+    border: 1px solid #000000;
+    padding: 3px;
+    background-color: white;
+}
