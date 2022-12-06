@@ -29,8 +29,6 @@ public class Main implements EntryPoint {
 
         mainPanel.setStyleName("topPanel");
 
-        listBox.getElement().setDraggable(Element.DRAGGABLE_TRUE);
-
         mainPanel.add(topPanel);
         topPanel.setSpacing(10);
         addListBoxAndButtons();
