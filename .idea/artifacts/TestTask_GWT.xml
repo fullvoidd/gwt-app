@@ -5,8 +5,6 @@
       <element id="gwt-compiler-output" facet="TestTask/gwt/GWT" />
       <element id="javaee-facet-resources" facet="TestTask/web/Web" />
       <element id="module-output" name="TestTask" />
-      <element id="library" level="project" name="Spring MVC-5.2.3.RELEASE (2)" />
-      <element id="library" level="project" name="Spring-5.2.3.RELEASE" />
     </root>
   </artifact>
 </component>

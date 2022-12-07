@@ -8,19 +8,26 @@ import com.mongodb.client.model.Updates;
 import com.my.shared.Node;
 import org.bson.Document;
 
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Properties;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.function.Consumer;
 
 public class DatabaseManipulator {
 
     private final MongoCollection<Document> collection;
-    private static final MongoClient mongoClient = new MongoClient("127.0.0.1", 27017);
-    private static final MongoDatabase database = mongoClient.getDatabase("TreeInfo");
 
-    public DatabaseManipulator() {
-        collection = database.getCollection("Tree");
+    public DatabaseManipulator() throws IOException {
+        Properties props = new Properties();
+        props.load(Files.newInputStream(Paths.get("mongo.properties")));
+        MongoClient mongoClient = new MongoClient(props.getProperty("host"), Integer.parseInt(props.getProperty("port")));
+        MongoDatabase database = mongoClient.getDatabase(props.getProperty("databaseName"));
+        collection = database.getCollection(props.getProperty("collectionName"));
     }
 
     public void saveTreeInDB(Node tree) {

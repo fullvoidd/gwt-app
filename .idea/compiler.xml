@@ -7,8 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="TestTask" />
-        <module name="Test_Task" />
         <module name="untitled15" />
+        <module name="gwt-app" />
+        <module name="Test_Task" />
       </profile>
     </annotationProcessing>
   </component>
