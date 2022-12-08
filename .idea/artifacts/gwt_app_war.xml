@@ -1,0 +1,43 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="gwt-app:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/gwt_app_war</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="gwt-app" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.sencha.gxt:gxt:3.1.1" />
+          <element id="library" level="project" name="Maven: javax.validation:validation-api:sources:1.0.0.GA" />
+          <element id="library" level="project" name="Maven: org.json:json:20090211" />
+          <element id="library" level="project" name="Maven: org.mongodb:mongodb-driver:3.12.11" />
+          <element id="library" level="project" name="Maven: org.mongodb:bson:3.12.11" />
+          <element id="library" level="project" name="Maven: org.mongodb:mongodb-driver-core:3.12.11" />
+          <element id="library" level="project" name="Maven: org.fusesource.restygwt:restygwt:2.2.7" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.6" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.6" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:sources:2.9.6" />
+          <element id="library" level="project" name="Maven: com.github.nmorel.gwtjackson:gwt-jackson:0.15.4" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:sources:2.9.6" />
+          <element id="library" level="project" name="Maven: com.squareup:javapoet:1.0.0" />
+          <element id="library" level="project" name="Maven: javax.ws.rs:javax.ws.rs-api:2.1.1" />
+          <element id="library" level="project" name="Maven: javax.validation:validation-api:2.0.1.Final" />
+          <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.4" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.2" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.3.23" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.3.23" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.3.23" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.3.23" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.3.23" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.3.23" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.3.23" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.3.23" />
+          <element id="library" level="project" name="gwt-user" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="gwt-app/web/Web" />
+      <element id="gwt-compiler-output" facet="gwt-app/gwt/GWT" />
+    </root>
+  </artifact>
+</component>
