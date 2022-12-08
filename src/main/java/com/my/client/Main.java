@@ -116,9 +116,6 @@ public class Main implements EntryPoint {
         treeVPanel.add(cleanAllButton);
         treeVPanel.setCellHorizontalAlignment(cleanAllButton, HasHorizontalAlignment.ALIGN_RIGHT);
 
-        tree.addTextItem("Пушкин").addTextItem("Евгений Онегин");
-        tree.getItem(0).addTextItem("Сказка");
-        tree.addTextItem("Лермонтов").getElement();
         treeBox.setSize("25em", "29em");
         treeBox.setStyleName("treeBox");
 
